@@ -2,3 +2,6 @@
 
 source "https://rubygems.org"
 gemspec
+gem "jemoji"
+gem "jekyll-remote-theme"
+gem "jekyll-paginate"

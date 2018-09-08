@@ -3,3 +3,121 @@
 ---
 
 @import 'tale';
+
+.nav.content > img,
+.nav.content > p {
+  display: inline-block;
+}
+
+li {
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: table-cell;
+}
+
+.nav li {
+  padding-right: 2px;
+}
+
+.nav li:last-child {
+  padding-top: 10px;
+}
+
+.nav li:last-child:hover {
+  color: pink;
+}
+
+.nav-title {
+  color: black;
+  opacity: 1.0;
+}
+
+.nav-title:hover {
+  color: #EB507B;
+  opacity: 1.0;
+}
+
+#home-link {
+  opacity: 1.0;
+}
+
+#home-link:hover {
+  opacity: 1.0;
+}
+
+.archive {
+  color: black;
+}
+
+.archive a:hover {
+  color: #EB507B;
+}
+
+.top:hover {
+  color: #EB507B;
+}
+
+footer a:hover {
+  color: #EB507B;
+}
+
+.catalogue-title:hover {
+  color: #EB507B;
+}
+
+main a:hover {
+  color: #EB507B;
+}
+
+.img-title {
+  margin: 0;
+  height: 20px;
+}
+
+.img-title:hover {
+  color: pink;
+}
+
+svg {
+  height: 20px;
+  fill: black;
+}
+
+svg:hover {
+  fill: #EB507B;
+}
+
+.catalogue a:hover {
+  color: gray;
+}
+
+h3 {
+  text-align: center;
+}
+
+.post p img {
+  width: 600px;
+  border-radius: 4px;
+}
+
+.table {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  width: 700px;
+}
+
+.joint-img {
+  list-style: none;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.joint-img {
+  display: inline;
+}
+

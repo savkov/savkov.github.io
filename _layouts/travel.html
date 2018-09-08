@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="catalogue">
+  {% for post in site.travel %}
+    {% if forloop.index < 5 %}
+    	<a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
+  	    <div>
+	        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+    	    <h1 class="catalogue-title">{{ post.title }}</h1>
+  	      <div class="catalogue-line"></div>
+
+  	      <p class="catalogue-snippet">
+   	       {{ post.content | strip_html | truncatewords: 30 }}
+  	      </p>
+
+  	    </div>
+  	  </a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div class="archive">
+	<h3><a href='/travel-archive'>see more</a></h3>
+</div>
+
+<div class="pagination">
+  <a href="#" class="top">Top</a>
+</div>

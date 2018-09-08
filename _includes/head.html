@@ -6,10 +6,10 @@
   {% endif %}
 
   <title>
-    {% if page.title == "Home" %}
-      {{ site.title }}
+    {% if page.url == "/" %}
+      {{ site.title }} 👋 
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ site.title }} {{page.title }}
     {% endif %}
   </title>
 
