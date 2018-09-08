@@ -5,6 +5,7 @@ layout: default
 <div class="catalogue">
   {% for post in site.travel %}
     {% if forloop.index < 5 %}
+	{% assign trimmed = false %}
     	<a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
   	    <div>
 	        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
@@ -17,13 +18,17 @@ layout: default
 
   	    </div>
   	  </a>
+    {% else %}
+        {% assign trimmed = true %}
     {% endif %}
   {% endfor %}
 </div>
 
-<div class="archive">
-	<h3><a href='/travel-archive'>see more</a></h3>
-</div>
+{% if trimmed %}
+    <div class="archive">
+	<h3><a href='/travel-archive'>see more posts</a></h3>
+    </div>
+{% endif %}
 
 <div class="pagination">
   <a href="#" class="top">Top</a>
