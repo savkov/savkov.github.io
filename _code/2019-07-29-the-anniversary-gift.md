@@ -23,8 +23,14 @@ In a moment of desperation, I checked a very old place I kept secret stuff. One 
 Updating the password took some effort in remembering but was pretty much as straightforward as I thought it would be. This time I created a user for myself. Just in case.
 
 There are some lessons in this boring story:
-<ul>
-<li>Use a password manager!</li>
-<li>Use a password manager for more than just passwords!</li>
-<li>If you are setting something up, write a readme file. Just notes on what's where and how to get it. It will help so much!</li>
- </ul>
+<table>
+<tr>
+<td>Use a password manager!</td>
+ </tr>
+ <tr>
+<td>Use a password manager for more than just passwords!</td>
+  </tr>
+ <tr>
+<td>If you are setting something up, write a readme file. Just notes on what's where and how to get it. It will help so much!</td>
+ </tr>
+</table>
