@@ -23,7 +23,6 @@ In a moment of desperation, I checked a very old place I kept secret stuff. One 
 Updating the password took some effort in remembering but was pretty much as straightforward as I thought it would be. This time I created a user for myself. Just in case.
 
 There are some lessons in this boring story:
-
-1. Use a password manager!
-2. Use a password manager for more than just passwords!
-3. If you are setting something up, write a readme file. Just notes on what's where and how to get it. It will help so much!
+1.  Use a password manager!
+1.  Use a password manager for more than just passwords!
+1.  If you are setting something up, write a readme file. Just notes on what's where and how to get it. It will help so much!
